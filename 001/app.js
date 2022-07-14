@@ -7,7 +7,7 @@ function rand(min, max) {
 
 //const mas = [...Array(10)].map(_ => rand(7, 77));
 
-const mas = [];
+//const mas = [];
 
 //mas[0] = 'Petras';
 //mas[1] = 'Ieva';
@@ -17,10 +17,10 @@ const mas = [];
 //mas.unshift('Kurmis');// nustume į galą (0 vieta)
 
 
-for (let i = 0; i < 10; i++) {
-    mas.push(rand(7,77));
-}
-console.log(mas);
+//for (let i = 0; i < 10; i++) {
+//    mas.push(rand(7,77));
+//}
+//console.log(mas);
 //const cats = ['Murka', 'Pilkis', 'Rainius'];
 //console.log(cats[rand(0, 2)]);
 
@@ -30,4 +30,10 @@ console.log(mas);
 //    console.log(mas[i])
 //}
 
-mas.forEach(n => console.log(n));
+//mas.forEach(n => console.log(n));
+//for (let i = 0; i < 2; i++) {
+    
+//}
+
+//const rndm = rand(0, 4)
+//console.log(rndm)
