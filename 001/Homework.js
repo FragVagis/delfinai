@@ -26,15 +26,15 @@ function rand(min, max) {
 
 // 3 uzduotis: Įvedami skaičiai -a, b, c –kraštinių ilgiai, trys kintamieji (naudokite ​rand()​ funkcija nuo 1 iki 10). Parašykite skriptą, kuris nustatytų, ar galima sudaryti trikampį ir atsakymą atspausdintų naudojant console.log(). 
 
-let a = rand (1,10)
-let b = rand (1,10)
-let c = rand (1,10)
+//let a = rand (1,10)
+//let b = rand (1,10)
+//let c = rand (1,10)
 
-if (a + b > c && b + c > a && a + c > b) {
-    console.log('veikia');
-    } else
-        console.log('neveikia');
-    
+//if (a + b > c && b + c > a && a + c > b) {
+//    console.log('veikia');
+//    } else
+//        console.log('neveikia');
+//    
 
 // 4 uzduotis: Sukurkite keturis kintamuosius ir ​rand()​ funkcija sugeneruokite jiems reikšmes nuo 0 iki 2. Suskaičiuokite kiek yra nulių, vienetų ir dvejetų. Rezultatus atspauzdinkite su console.log()
 
