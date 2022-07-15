@@ -73,6 +73,10 @@ if (zvakesKaina < 1000) {
 } else {
     console.log(`užsakyta: ${zvakesKaina} | Kaina: ${zvakesKaina*0.97}`);
 }
-*/
+
 // 7 uzduotis: Naudokite funkcija rand(). Sukurkite tris kintamuosius su atsitiktinėm reikšmėm nuo 0 iki 100. Paskaičiuokite jų aritmetinį vidurkį. Ir aritmetinį vidurkį atmetus tas reikšmes, kurios yra mažesnės nei 10 arba didesnės nei 90. Abu vidurkius atspausdinkite su console.log()
-const second = [...Array(3)].map(_ => rand(0, 100));
+const a = rand(0,100);
+const b = rand(0,100);
+const c = rand(0,100);
+console.log(a,b,c);
+*/

@@ -59,5 +59,6 @@ console.log(namas2);
 console.log('---sort--end-----');
 
 
+// 1 uzduotis: Sugeneruokite masyvą iš 30 elementų (indeksai nuo 0 iki 29), kurių reikšmės yra atsitiktiniai skaičiai nuo 5 iki 25.
 
-
+ 
