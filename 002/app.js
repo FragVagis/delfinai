@@ -1,5 +1,5 @@
  //forEach; map; sort; filter
- console.log('---forEach--start-----');
+/* console.log('---forEach--start-----');
 [1, 5, 77].forEach(a => console.log(a));
 
 console.log('-----<>-----');
@@ -57,8 +57,11 @@ console.log(namas2);
 
 
 console.log('---sort--end-----');
-
-
-// 1 uzduotis: Sugeneruokite masyvą iš 30 elementų (indeksai nuo 0 iki 29), kurių reikšmės yra atsitiktiniai skaičiai nuo 5 iki 25.
+*/
+/*
+const a = [];
+const b = a; //Tai yra tas pats (Pakeistas masyvo pavadinimas)
+const b = [...a]; // Tai yra skirtingi masyvai (Nukopintas masyvas)
+*/
 
  

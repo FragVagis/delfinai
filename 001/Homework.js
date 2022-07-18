@@ -62,7 +62,7 @@ for(num of fifth){
 }
 console.log(fifth);
 
-
+*/
 // 6 uzduotis: Įmonė parduoda žvakes po 1 EUR. Perkant daugiau kaip už 1000 EUR taikoma 3 % nuolaida, daugiau kaip už 2000 EUR - 4 % nuolaida. Parašykite skriptą, kuri skaičiuos žvakių kainą ir atspausdintų atsakymą su console.log() kiek žvakių ir kokia kaina perkama. Žvakių kiekį generuokite ​rand()​ funkcija nuo 5 iki 3000.
 
 let zvakesKaina = rand(5,3000)
@@ -73,10 +73,39 @@ if (zvakesKaina < 1000) {
 } else {
     console.log(`užsakyta: ${zvakesKaina} | Kaina: ${zvakesKaina*0.97}`);
 }
-
+/*
 // 7 uzduotis: Naudokite funkcija rand(). Sukurkite tris kintamuosius su atsitiktinėm reikšmėm nuo 0 iki 100. Paskaičiuokite jų aritmetinį vidurkį. Ir aritmetinį vidurkį atmetus tas reikšmes, kurios yra mažesnės nei 10 arba didesnės nei 90. Abu vidurkius atspausdinkite su console.log()
+//mano variantas.
 const a = rand(0,100);
 const b = rand(0,100);
 const c = rand(0,100);
 console.log(a,b,c);
+
+ if (a,b,c > 10) {
+    console.log(`(${a} + ${b} + ${c}) / 3 = ${(a+b+c)/3}`);
+ } else if (a,b,c < 10){
+    console.log(`Mažiau 10`);
+ } else if (a,b,c > 90) {
+    console.log(`Daugiau 90`);
+ }
+
+
+ 
+console.log('------');
+
+//  Ženkos variantas.
+let arry7 = [];
+let sum =0;
+let s =0;
+arry7.push(a7 = rand(0,100));
+arry7.push(b7 = rand(0,100));
+arry7.push(c7 = rand(0,100));
+console.log((a7+b7+c7)/3);
+for(n of arry7){
+  if (n > 10 && n < 90){
+      sum += n;
+      s +=1;
+  }
+}
+console.log(sum/s);
 */
