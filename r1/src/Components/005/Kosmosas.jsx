@@ -1,17 +1,17 @@
 import rand from '../../Functions/rand';
-function Kosmosas() {
+function Kosmosas({spalva, krastas, manoStilius}) {
 
     return (
 
     <>
     <div style={
         {
-            color: 'crimson',
+            color: spalva,
             fontSize: rand(30, 100) + 'px',
-            padding: '10px'
+            padding: krastas + 'px'
         }
         }>MAR-SAS</div>
-    <div>KOS-MOS</div>
+    <div style={manoStilius}>KOS-MOS</div>
     </>
     );
 

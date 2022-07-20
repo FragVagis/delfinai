@@ -7,5 +7,5 @@ root.render(
 );
 
 // Component
-// Prors
+// Props
 // Stats
