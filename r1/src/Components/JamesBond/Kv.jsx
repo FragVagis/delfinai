@@ -7,7 +7,7 @@ function Kv({c, i}) {
         return () => {
             console.log('Numire :(', i);
         }
-    }, []);
+    }, [i]);
 
     return(
         <div className="kv" style={{
