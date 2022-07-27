@@ -52,3 +52,11 @@
   border: 2px solid white;
   background-color: #282c34;
 };
+
+.radio input {
+  display: none;
+};
+
+.radio label {
+  cursor: pointer;
+}
